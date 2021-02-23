@@ -173,7 +173,7 @@
      NSUInteger width= image2.size.width;
      NSUInteger height= image2.size.height;
     //看到时候传不传进来
-    NSInteger logoPadding=20;
+    NSInteger logoPadding=0;
     //LeftTop  RightTop  RightBottom  LeftBottom
     if([@"LeftTop" isEqualToString:position]){
         picLayer.frame = CGRectMake(logoPadding, size.height-height-logoPadding, width, height);
